@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 340">
+    <rect x="0" y="0" height="340" width="320" fill="white"/>
+    
+    <defs>
+        <clipPath id="clipout1">
+            <rect x="50" y="59.5" width="100" height="221" />
+        </clipPath>
+        <clipPath id="clipout2">
+            <rect x="200" y="59.5" width="100" height="221" />
+        </clipPath>
+    </defs>
+
+    <!-- middle vertical line of the logo -->
+    <!-- 
+    <line x1="160" x2="160" y1="0" y2="300" stroke="lightblue"/>
+    -->
+
+    <!-- rectangles for top and bottom -->
+    <rect x="10" y="10" width="300" height="30" />
+    <rect x="10" y="300" width="300" height="30" />
+
+    <!-- rectangle and half-circle for middle part -->
+    <g>
+    <rect x="10" y="60" width="40" height="220" fill="black" stroke="black"/>
+    </g>
+    <g clip-path="url(#clipout1)">
+         <circle  cx="30" cy="170" r="115" fill="black" stroke="black"/>
+    </g>
+    
+    <g>
+    <rect x="160" y="60" width="40" height="220" fill="black" stroke="black"/>
+    </g>
+    <g clip-path="url(#clipout2)">
+         <circle  cx="180" cy="170" r="115" fill="black" stroke="black"/>
+    </g>
+
+    <!-- Water droplets -->
+    <g>
+        <circle cx="70" cy="185" r="30" fill="white" />
+        <polyline points="45.5,170 70,110 94.5,170" fill="white" stroke="white" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></polyline>
+    </g>
+    <circle cx="220" cy="185" r="30" fill="white" />
+    <polyline points="195.5,170 220,110 244.5,170" fill="white" stroke="white" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></polyline>
+
+    
+    
+</svg>
